@@ -1,0 +1,25 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="proteinBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc80;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#proteinBg)" stroke="#ff8f00" stroke-width="3" rx="12"/>
+  <g transform="translate(200,200)">
+    <!-- Protein container -->
+    <path d="M-50,-90 L-50,-50 L-60,-30 L-60,70 Q-60,85 -45,85 L45,85 Q60,85 60,70 L60,-30 L50,-50 L50,-90 Z" fill="#d84315" opacity="0.8"/>
+    <!-- Lid -->
+    <ellipse cx="0" cy="-90" rx="50" ry="8" fill="#bf360c"/>
+    <!-- Label -->
+    <rect x="-45" y="-10" width="90" height="50" rx="6" fill="#ffffff" opacity="0.9" stroke="#ff5722"/>
+    <!-- Scoop icon -->
+    <ellipse cx="15" cy="20" rx="25" ry="15" fill="#ffffff" opacity="0.7" stroke="#ff8f00" stroke-width="2"/>
+  </g>
+  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#d84315">
+    Whey Protein
+  </text>
+  <text x="200" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ff5722">
+    Chocolate 2lb
+  </text>
+</svg>

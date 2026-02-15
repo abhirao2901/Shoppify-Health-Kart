@@ -1,0 +1,124 @@
+{
+  "bySlug": {
+    "whey-protein-isolate-chocolate-2lb": {
+      "image": "https://images.unsplash.com/photo-1583500178301-c24d33f88ecd?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/whey-protein-isolate-chocolate-2lb.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1583500178301-c24d33f88ecd?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Whey Protein Isolate, Chocolate, 2lb container"
+    },
+    "plant-based-protein-vanilla": {
+      "image": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/plant-based-protein-vanilla.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Plant-Based Protein, Vanilla, protein powder container"
+    },
+    "omega-3-fish-oil-1000mg": {
+      "image": "https://images.unsplash.com/photo-1559757175-4d7e6d61a2c2?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/omega-3-fish-oil-1000mg.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1559757175-4d7e6d61a2c2?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Omega 3 Fish Oil, 1000mg, softgel bottle"
+    },
+    "multivitamin-complete-daily": {
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/multivitamin-complete-daily.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Multivitamin Complete Daily, tablet bottle"
+    },
+    "vitamin-d3-2000-iu": {
+      "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/vitamin-d3-2000-iu.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Vitamin D3, 2000 IU, capsule bottle"
+    },
+    "vitamin-c-1000mg": {
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/vitamin-c-1000mg.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Vitamin C, 1000mg, tablet bottle"
+    },
+    "ashwagandha-extract-600mg": {
+      "image": "https://images.unsplash.com/photo-1556664530-3cef90e38987?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1556664530-3cef90e38987?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Ashwagandha Extract, 600mg, capsule bottle"
+    },
+    "creatine-monohydrate-powder": {
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/products/creatine-monohydrate-powder.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Creatine Monohydrate Powder, container"
+    },
+    "pre-workout-energy-formula": {
+      "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Pre-Workout Energy Formula, powder container"
+    },
+    "collagen-peptides-powder": {
+      "image": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Collagen Peptides Powder, container"
+    },
+    "probiotic-50-billion-cfu": {
+      "image": "https://images.unsplash.com/photo-1559757196-1ac427d6f02e?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1559757196-1ac427d6f02e?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Probiotic, 50 Billion CFU, capsule bottle"
+    },
+    "magnesium-glycinate": {
+      "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Magnesium Glycinate, tablet bottle"
+    },
+    "zinc-50mg": {
+      "image": "https://images.unsplash.com/photo-1550572017-edd951aa8854?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1550572017-edd951aa8854?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Zinc, 50mg, tablet bottle"
+    },
+    "melatonin-5mg": {
+      "image": "https://images.unsplash.com/photo-1559757146-d14cdf52b5b0?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1559757146-d14cdf52b5b0?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Melatonin, 5mg, tablet bottle"
+    },
+    "turmeric-curcumin-1000mg": {
+      "image": "https://images.unsplash.com/photo-1607624024894-fad0c7db7c5b?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1607624024894-fad0c7db7c5b?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Turmeric Curcumin, 1000mg, capsule bottle"
+    },
+    "b-complex-vitamins": {
+      "image": "https://images.unsplash.com/photo-1559757196-1ac427d6f02e?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1559757196-1ac427d6f02e?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "B-Complex Vitamins, tablet bottle"
+    },
+    "glucosamine-chondroitin": {
+      "image": "https://images.unsplash.com/photo-1580548731095-d3b9cbda9f65?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1580548731095-d3b9cbda9f65?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Glucosamine Chondroitin, tablet bottle"
+    },
+    "iron-folic-acid": {
+      "image": "https://images.unsplash.com/photo-1587562165775-4bec1e6ced08?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1587562165775-4bec1e6ced08?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Iron + Folic Acid, tablet bottle"
+    },
+    "electrolyte-hydration-powder": {
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Electrolyte Hydration Powder, container"
+    },
+    "fiber-supplement-powder": {
+      "image": "https://images.unsplash.com/photo-1548848302-3180b980e969?w=1200&h=1200&fit=crop&crop=center&auto=format&q=80",
+      "fallback": "/src/assets/placeholder-product.svg",
+      "thumbnail": "https://images.unsplash.com/photo-1548848302-3180b980e969?w=400&h=400&fit=crop&crop=center&auto=format&q=80",
+      "alt": "Fiber Supplement Powder, container"
+    }
+  }
+}
