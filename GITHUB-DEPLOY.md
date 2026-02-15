@@ -68,8 +68,11 @@ git commit -m "🚀 Initial Release: Shoppify Health Kart v1.0.0
 
 👨‍💻 Developer: @abhirao2901"
 
-# Add GitHub remote
-git remote add origin git@github.com:abhirao2901/Shoppify-Health-Kart.git
+# Add GitHub remote (HTTPS - recommended for easier authentication)
+git remote add origin https://github.com/abhirao2901/Shoppify-Health-Kart.git
+
+# Alternative SSH (if you have SSH keys configured):
+# git remote add origin git@github.com:abhirao2901/Shoppify-Health-Kart.git
 
 # Push to GitHub
 git push -u origin main

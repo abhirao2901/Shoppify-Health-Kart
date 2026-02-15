@@ -12,7 +12,7 @@ module.exports = {
     filename: isProd ? 'assets/js/[name].[contenthash].js' : 'assets/js/[name].js',
     chunkFilename: isProd ? 'assets/js/[name].[contenthash].chunk.js' : 'assets/js/[name].chunk.js',
     clean: true,
-    publicPath: '/'
+    publicPath: isProd ? '/Shoppify-Health-Kart/' : '/'
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
