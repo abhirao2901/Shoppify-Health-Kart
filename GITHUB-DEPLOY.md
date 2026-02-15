@@ -78,22 +78,88 @@ git remote add origin https://github.com/abhirao2901/Shoppify-Health-Kart.git
 git push -u origin main
 ```
 
-### 4️⃣ Deploy to GitHub Pages (Optional)
-```bash
-# If you want to deploy to GitHub Pages, add homepage to package.json first
-npm install --save-dev gh-pages
+## 🚀 Multiple Deployment Options
 
-# Deploy to GitHub Pages
+### Option 1: GitHub Pages (Current Setup)
+```bash
+# Already configured for your project
+npm run build
 npm run deploy
+
+# Manual verification
+git branch -a  # Should show origin/gh-pages
 ```
+**Settings**: Repository → Settings → Pages → Source: "Deploy from a branch" → Branch: "gh-pages"
+
+### Option 2: Netlify (Recommended for React)
+```bash
+# Build for production
+npm run build
+
+# Option A: Drag & Drop
+# 1. Go to https://netlify.com
+# 2. Drag the /dist folder to Netlify dashboard
+# 3. Site will be live instantly
+
+# Option B: Git Integration
+# 1. Connect repository to Netlify
+# 2. Build command: npm run build
+# 3. Publish directory: dist
+# 4. Auto-deploy on push to main
+```
+
+### Option 3: Vercel (Alternative)
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+vercel --prod
+
+# Build settings in vercel.json:
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "webpack"
+}
+```
+
+### Option 4: GitHub Actions + Netlify (Automated)
+Already configured in `.github/workflows/ci-cd.yml`
+- Auto-builds on push to main
+- Deploys to Netlify automatically
+- Runs performance tests
 
 ### 5️⃣ Configure GitHub Pages (Manual Step)
 1. Go to https://github.com/abhirao2901/Shoppify-Health-Kart
 2. Click **Settings** tab
-3. Scroll to **Pages** section
-4. Source: **GitHub Actions** (recommended) OR **Deploy from a branch**
-5. If using branch: Select **main** branch and **/ (root)** folder
+3. Scroll to **Pages** section (left sidebar)
+4. **Critical Settings**:
+   - Source: **Deploy from a branch**
+   - Branch: **gh-pages** ⚠️ (must exist after npm run deploy)
+   - Folder: **/ (root)**
+5. If `gh-pages` branch doesn't exist, use:
+   - Source: **GitHub Actions** (uses .github/workflows/)
 6. Click **Save**
+
+### 5️⃣-B Alternative: Manual GitHub Pages Setup
+If automated deployment fails:
+```bash
+# Build the project
+npm run build
+
+# Create gh-pages branch manually
+git checkout --orphan gh-pages
+git rm -rf .
+cp -r dist/* .
+cp dist/.* . 2>/dev/null || true
+git add .
+git commit -m "Deploy Shoppify Health Kart to GitHub Pages"
+git push origin gh-pages
+git checkout main
+
+# Then set Pages source to gh-pages branch in repository settings
+```
 
 ## 🌐 Live Site URLs
 **Your e-commerce store will be available at:**
@@ -156,6 +222,19 @@ GitHub: https://github.com/abhirao2901/Shoppify-Health-Kart
 
 ### Common Issues:
 
+**Blank Page on GitHub Pages:**
+```bash
+# The most common issue - incorrect base paths
+# Already fixed in this project with:
+# 1. Webpack publicPath: '/Shoppify-Health-Kart/'
+# 2. React Router basename: '/Shoppify-Health-Kart'
+# 3. SPA routing fallback via 404.html
+
+# If you encounter blank page after changes:
+npm run build
+npm run deploy
+```
+
 **Build Fails:**
 ```bash
 # Clear cache and reinstall
@@ -164,19 +243,28 @@ npm install
 npm run build
 ```
 
+**Assets Not Loading (404 errors):**
+- Check browser developer tools console
+- Verify assets load from `/Shoppify-Health-Kart/assets/...` not `/assets/...`
+- Ensure webpack publicPath is correctly set for production
+
+**SPA Routing Issues:**
+- Direct URL access (e.g., `/products`) should work via 404.html fallback
+- If not working, check React Router basename configuration
+
 **Git Push Fails:**
 ```bash
 # Check git remote
 git remote -v
 
 # Re-add if needed
-git remote set-url origin git@github.com:abhirao2901/Shoppify-Health-Kart.git
+git remote set-url origin https://github.com/abhirao2901/Shoppify-Health-Kart.git
 ```
 
-**Deployment Issues:**
-- Check GitHub Actions logs in repository
-- Verify all environment variables are set
-- Ensure GitHub Pages is enabled in settings
+**GitHub Pages Not Updating:**
+- Wait 5-10 minutes for GitHub Pages to propagate changes
+- Check GitHub repository Settings > Pages for deployment status
+- Hard refresh browser with Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac)
 
 ## 🎯 Success Metrics
 ✅ **Repository**: https://github.com/abhirao2901/Shoppify-Health-Kart  
