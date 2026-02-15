@@ -122,6 +122,7 @@ vercel --prod
   "outputDirectory": "dist",
   "framework": "webpack"
 }
+# add
 ```
 
 ### Option 4: GitHub Actions + Netlify (Automated)
